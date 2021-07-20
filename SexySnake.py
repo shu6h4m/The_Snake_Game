@@ -1,4 +1,5 @@
 import pygame
+import sys
 import time
 import random
  
@@ -14,16 +15,27 @@ g = (255, 165, 0)
  
 win_width = 800
 win_height = 600
+
+check_errors = pygame.init()
+# pygame.init() example output -> (6, 0)
+# second number in tuple gives number of errors
+if check_errors[1] > 0:
+    print(f'[!] Had {check_errors[1]} errors when initialising game, exiting...')
+    sys.exit(-1)
+else:
+    print('[+] Game successfully initialised | Code by shu6h4m')
+
+
  
 dis = pygame.display.set_mode((win_width, win_height))
 pygame.display.set_caption('SEXY  SNAKE  GAME ( by shu6h4m )')
- 
+#background = pygame.image.load('bgimg.jpg') 
 clock = pygame.time.Clock()
  
 snkblk = 10
-snake_speed = 15
+snake_speed = 25
  
-font_style = pygame.font.SysFont("bazooka", 32)
+font_style = pygame.font.SysFont("helvetica", 25)
 score_font = pygame.font.SysFont("helvetica", 22)
  
  
@@ -63,6 +75,7 @@ def gameLoop():
  
         while game_close == True:
             dis.fill(blue)
+            #dis.blit(background,(0,0))
             message("You Lost !  Press 'Esc' to Quit or Press 'S' to Play", r)
             Your_score(Length_of_snake - 1)
             pygame.display.update()
@@ -123,6 +136,4 @@ def gameLoop():
  
     pygame.quit()
     quit()
- 
- 
 gameLoop()
