@@ -1,17 +1,21 @@
 
-https://user-images.githubusercontent.com/37971771/118852069-0b872480-b8f0-11eb-9f5b-0a89a1eb7525.mp4
-
-
 
 
 
 ----------------------------------------------------------------------------------------------------
 
-Select other options from given menu for Activating MsOffice. 😈
+Simple n Sassy Snake Game built in python using Pygame module 😈
 
 ----------------------------------------------------------------------------------------------------
+
+
+
+
+https://user-images.githubusercontent.com/37971771/126283460-2da0191a-6353-4399-8e62-2839d7080317.mp4
+
+
 </br> 
 
 
 
-                                  Thankyou for Scrolling this long 🍻
+                                  Thankyou for Visiting This Repo  🍻
