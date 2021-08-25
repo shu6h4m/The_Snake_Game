@@ -6,7 +6,7 @@
 
 ----------------------------------------------------------------------------------------------------
 
-Simple n Sassy Snake Game built in python using Pygame module 😈
+Simple n Sassy Snake Game built in python using Pygame module 😈 
 
 ----------------------------------------------------------------------------------------------------
 
